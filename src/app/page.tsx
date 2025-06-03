@@ -1,7 +1,13 @@
 import Image from "next/image";
 
+
+
 export default function Home() {
+
+ 
   return (
-    <h1>MAIN BRANCH!</h1>
+    <>
+    <h1>MAIN BRANCH!</h1>     
+    </>
   );
 }
