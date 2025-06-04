@@ -28,6 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={` ${montserrat.variable} ${cinzel.variable} antialiased`}
+        
       >
         {children}
       </body>
