@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+.nav__link {
+    align-self: center;
+    border: solid 2px transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    min-width: 137px;
+    padding: 8px;
+    text-align: center;
+}
+
+.nav__link--active {
+    border: solid 2px #ffd900af;
+}
+
+.nav__link:hover {
+    background-color: rgba(0, 0, 0, 0.285);
+    border: solid 2px #ffd900af;
+    color: #ffffffbb;
+}
