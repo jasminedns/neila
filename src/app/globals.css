@@ -42,12 +42,12 @@ body {
     border-radius: 4px;
     cursor: pointer;
     color: white;
-    min-width: 137px;
+    min-width: 100px;
     padding: 8px;
     text-align: center;
 }
 
-.header_div:hover {
+.header_div:hover,.team_button {
     background-color: rgba(0, 0, 0, 0.285);
     border: solid 2px #ffd900af;
     color: rgba(255, 255, 255, 0.734);
