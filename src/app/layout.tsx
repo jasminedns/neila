@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Montserrat , Cinzel_Decorative} from "next/font/google";
 import Header from "@/components/Header";
 import "./globals.css";
-import Header from "@/components/Header";
 
 const cinzel = Cinzel_Decorative({
   subsets:['latin'],
