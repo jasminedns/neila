@@ -39,6 +39,4 @@ const ProjectInfoPage = () => {
     );
   };
   
-  export default ProjectInfoPage;
-  
-
+export default ProjectInfoPage;
