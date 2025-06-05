@@ -1,5 +1,8 @@
-export default function Home() {
+export default function Home() { 
   return (
-    <h1>NEILA</h1>
+    <>
+   <h1>NEILA</h1>
+    </>
+    
   );
 }
