@@ -49,6 +49,21 @@ body {
 
 .hp__button--link {
   background-image: url("../../public/border.png");
+  background-position: 100% ;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
+  min-height: 248px;
+  position: relative;
+  z-index: 10;
+}
+
+.hp__button--link::before {
+  background-color: rgba(0, 0, 0, 0.285);
+  content: "";
+  min-height: 248px;
+  position: absolute;
+  width: 100%;
+  z-index: 20;
 }
