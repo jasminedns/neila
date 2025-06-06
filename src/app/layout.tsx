@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Montserrat , Cinzel_Decorative} from "next/font/google";
+<<<<<<< HEAD
+=======
+import "./globals.css";
+>>>>>>> Ticket-026/fonts
 import Header from "@/components/Header";
 import "./globals.css";
 
@@ -27,7 +31,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${montserrat.variable} ${cinzel.variable} antialiased`} >
+      <body
+        className={` ${montserrat.variable} ${cinzel.variable} antialiased`}>
         <Header />
         {children}
       </body>
