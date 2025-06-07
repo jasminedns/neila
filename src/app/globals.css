@@ -9,13 +9,6 @@
   --color-foreground: var(--foreground);
 }
 
-.header_div:hover {
-    background-color: rgba(0, 0, 0, 0.285);
-    border: solid 2px #ffd900af;
-    color: rgba(255, 255, 255, 0.734);
-}
-
-
 /*---Fonts--- */
 
 @font-face {
@@ -136,11 +129,7 @@ body {
   font-family: var(--font-cinzel);
 }
 
-<<<<<<< HEAD
-.header_div {
-=======
 .nav__link {
->>>>>>> main
   align-self: center;
   border: solid 2px transparent;
   border-radius: 4px;
@@ -149,13 +138,6 @@ body {
   min-width: 137px;
   padding: 8px;
   text-align: center;
-}
-
-<<<<<<< HEAD
-.header_div:hover {
-  background-color: rgba(0, 0, 0, 0.285);
-  border: solid 2px #ffd900af;
-  color: rgba(255, 255, 255, 0.734);
 }
 
 .hp__button--link {
@@ -177,7 +159,8 @@ body {
   position: absolute;
   width: 100%;
   z-index: 20;
-=======
+}
+
 .nav__link--active {
   border: solid 2px #ffd900af;
 }
@@ -186,5 +169,4 @@ body {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
   color: #ffffffbb;
->>>>>>> main
 }
