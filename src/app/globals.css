@@ -130,10 +130,12 @@ body {
 
 .font-montserrat {
   font-family: var(--font-montserrat);
+  color:white
 }
 
 .font-cinzel {
   font-family: var(--font-cinzel);
+  color: #FFD700;
 }
 
 
@@ -177,13 +179,19 @@ body {
   width: 100%;
   z-index: 20;
 
+}
+
 .nav__link--active {
   border: solid 2px #ffd900af;
 }
-}
+
 .nav__link:hover {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
   color: #ffffffbb;
 
+
 }
+
+
+
