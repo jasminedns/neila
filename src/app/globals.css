@@ -138,11 +138,10 @@ body {
   color: #FFD700;
 }
 
-<<<<<<< HEAD
+
 .header_div {
-=======
+
 .nav__link {
->>>>>>> main
   align-self: center;
   border: solid 2px transparent;
   border-radius: 4px;
@@ -152,8 +151,8 @@ body {
   padding: 8px;
   text-align: center;
 }
+}
 
-<<<<<<< HEAD
 .header_div:hover {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
@@ -179,7 +178,8 @@ body {
   position: absolute;
   width: 100%;
   z-index: 20;
-=======
+}
+
 .nav__link--active {
   border: solid 2px #ffd900af;
 }
@@ -188,5 +188,4 @@ body {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
   color: #ffffffbb;
->>>>>>> main
 }
