@@ -1,6 +1,9 @@
+import TeamIntro from "@/components/TeamIntro";
+
+
 const AboutTheTeam = () => {
     return (
-        <h2>About the team</h2>
+        <TeamIntro />
     )
 }
 
