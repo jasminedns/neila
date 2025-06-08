@@ -1,7 +1,9 @@
+import Out_Now_Div from "@/components/Out_Now_Div";
 import Image from "next/image";
 
 const ProjectInfoPage = () => {
     return (
+        <>
         <div className="min-h-screen bg-gray-800 p-6  text-white text-xl">
             <div className="flex flex-col md:justify-between md:flex-row m-6">
             <h4 className="font-cinzel m-3 text-3xl font-bold">The Project:</h4>
@@ -35,7 +37,8 @@ const ProjectInfoPage = () => {
             </div>
                 
     </div>
-     
+    <Out_Now_Div />
+    </>
     );
   };
   

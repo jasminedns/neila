@@ -189,8 +189,17 @@ body {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
   color: #ffffffbb;
+}
 
+.social_icon_container {
+  background-color: white;
+  border-radius: 45%;
+  margin-right: 16px;
+}
 
+.social_icon {
+ 
+  padding: 4px;
 }
 
 
