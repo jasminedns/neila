@@ -1,12 +1,118 @@
 @import "tailwindcss";
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+}
+
+.header_div:hover {
+    background-color: rgba(0, 0, 0, 0.285);
+    border: solid 2px #ffd900af;
+    color: rgba(255, 255, 255, 0.734);
+}
+
+
+/*---Fonts--- */
+
+@font-face {
+    font-family:'Montserrat-Black';
+    src: url(/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family:'Montserrat-BlackItalic';
+    src: url(/fonts/Montserrat-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family:'Montserrat-Bold';
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family:'Montserrat-BoldItalic';
+    src:url(/fonts/Montserrat-BoldItalic.ttf) ;
+}
+@font-face {
+    font-family:'Montserrat-ExtraBold';
+    src:url(/fonts/Montserrat-ExtraBold.ttf) ;
+}
+@font-face {
+    font-family:'Montserrat-ExtraBoldItalic';
+    src:url(/fonts/Montserrat-ExtraBoldItalic.ttf) ;
+}
+@font-face {
+    font-family:'Montserrat-ExtraLight';
+    src:url(/fonts/Montserrat-ExtraLight.ttf) ;
+}
+@font-face {
+    font-family:'Montserrat-ExtraLightItalic';
+    src:url(/fonts/Montserrat-ExtraLightItalic.ttf) ;
+}
+
+@font-face {
+    font-family:'Montserrat-Italic-VariableFont_wght';
+    src:url(/fonts/Montserrat-Italic-VariableFont_wght.ttf) ;
+}
+@font-face {
+    font-family:'Montserrat-Italic';
+    src:url(/fonts/Montserrat-Italic.ttf) ;
+}
+@font-face {
+    font-family:'Montserrat-Light';
+    src:url(/fonts/Montserrat-Light.ttf) ;
+}
+
+@font-face {
+    font-family:'Montserrat-LightItalic';
+    src:url(/fonts/Montserrat-LightItalic.ttf) ;
+}
+@font-face {
+    font-family:'Montserrat-Medium';
+    src:url(/fonts/Montserrat-Medium.ttf) ;
+}
+@font-face {
+    font-family:'Montserrat-MediumItalic';
+    src:url(/fonts/Montserrat-MediumItalic.ttf) ;
+}
+
+@font-face {
+    font-family:'Montserrat-Regular';
+    src:url(/fonts/Montserrat-Regular.ttf) ;
+}
+
+@font-face {
+    font-family:'Montserrat-SemiBold';
+    src:url(/fonts/Montserrat-SemiBold.ttf) ;
+}
+
+@font-face {
+    font-family:'Montserrat-SemiBoldItalic';
+    src:url(/fonts/Montserrat-SemiBoldItalic.ttf) ;
+}
+
+@font-face {
+    font-family:'Montserrat-Thin';
+    src:url(/fonts/Montserrat-Thin.ttf) ;
+}
+
+@font-face {
+    font-family:'Montserrat-ThinItalic';
+    src:url(/fonts/Montserrat-ThinItalic.ttf) ;
+}
+
+@font-face {
+    font-family:'Montserrat-VariableFont_wght';
+    src:url(/fonts/Montserrat-VariableFont_wght.ttf) ;
+}
+
+@font-face {
+    font-family:'Steam-Punk-Flyer';
+    src:url(/fonts/Steam-Punk-Flyer.ttf) ;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,26 +130,68 @@ body {
 
 .font-montserrat {
   font-family: var(--font-montserrat);
+  color:white
 }
 
 .font-cinzel {
   font-family: var(--font-cinzel);
+  color: #FFD700;
 }
 
+
 .header_div {
-    align-self: center;
-    border: solid 2px transparent;
-    border-radius: 4px;
-    cursor: pointer;
-    color: white;
-    min-width: 137px;
-    padding: 8px;
-    text-align: center;
+.nav__link {
+
+  align-self: center;
+  border: solid 2px transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  min-width: 137px;
+  padding: 8px;
+  text-align: center;
+}
 }
 
 .header_div:hover {
-    background-color: rgba(0, 0, 0, 0.285);
-    border: solid 2px #ffd900af;
-    color: rgba(255, 255, 255, 0.734);
+  background-color: rgba(0, 0, 0, 0.285);
+  border: solid 2px #ffd900af;
+  color: rgba(255, 255, 255, 0.734);
 }
+
+.hp__button--link {
+  background-image: url("../../public/border.png");
+  background-position: 100% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 248px;
+  position: relative;
+  z-index: 10;
+}
+
+.hp__button--link::before {
+  background-color: rgba(0, 0, 0, 0.285);
+  content: "";
+  min-height: 248px;
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+
+}
+
+.nav__link--active {
+  border: solid 2px #ffd900af;
+}
+
+.nav__link:hover {
+  background-color: rgba(0, 0, 0, 0.285);
+  border: solid 2px #ffd900af;
+  color: #ffffffbb;
+
+
+}
+
+
 
