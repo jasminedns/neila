@@ -1,10 +1,15 @@
 import Image from "next/image"
+import TeamMenu from "../TeamMenu"
 
 const TeamIntro = () => {
     return (
         <>
         <div className="bg-[url('/images/Empty_background.png')] w-full bg-cover relative h-[calc(100vh-100px)] 
                                                                                         sm:h-[calc(100vh-75px)]">
+
+            <div className="block py-11 md:hidden">
+            <TeamMenu/>
+            </div>
            <Image src="/images/crowd_silhouette.png" alt="crowd_silhouette" width={0}  height={0} sizes="100vw"  
                 className="w-full h-auto object-contain absolute bottom-16 ">
             </Image>
@@ -13,19 +18,14 @@ const TeamIntro = () => {
                 className="w-full h-auto object-contain absolute bottom-0 opacity-75">
             </Image>   
 
-            <div className="absolute bottom-80 sm:bottom-70 md:bottom-75 lg:bottom-50 flex justify-center w-full shadow-inner ">
+            <div className="absolute bottom-80 sm:bottom-100 md:bottom-90 lg:bottom-50 flex justify-center w-full shadow-inner ">
                 <Image src="/images/Meet_the_team.png" alt="meet_the_team" width={400} height={0} sizes="100vw"
-                className="w-[250px] sm:w-[250px] md:w-[350px] h-auto shadow-inner"></Image>
+                className="w-[250px] sm:w-[300px] md:w-[350px] h-auto shadow-inner"></Image>
             </div>
-            
-            <section className="text-white absolute top-[60px] md:top-[80px] lg:top-[550px]  min-w-full">
-                <div className="flex justify-center bottom-[50px]">
-                <p className="font-montserrat team_button mx-2 sm:mx-4 text-xs md:text-xl p-2">Designers</p>
-                <p className="font-montserrat team_button mx-2 sm:mx-4 text-xs md:text-xl p-2">Artists</p>
-                <p className="font-montserrat team_button mx-2 sm:mx-4 text-xs md:text-xl p-2">Developers</p>
-                <p className="font-montserrat team_button mx-2 sm:mx-4 text-xs md:text-xl p-2">Managers</p>
-                </div>
-            </section>
+            <div className=" hidden py-11 md:block absolute bottom-5 left-[20%]  lg:left-[35%]">
+            <TeamMenu/>
+            </div>
+           
         </div>
         </>
     )
