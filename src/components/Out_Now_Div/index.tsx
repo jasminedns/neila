@@ -7,30 +7,32 @@ const Out_Now_Div = () => {
     return (
         <>
             <div className="bg-[linear-gradient(38deg,_rgba(8,8,8,1)_0%,_rgba(0,0,0,1)_51%,_rgba(87,83,66,1)_90%,_rgba(145,122,71,1)_97%)]">
-                <div className="flex justify-center p-6">
-                <Image src="/out_now.png" alt="out_now" width={0} height={0} sizes="100vw"
-                className="w-[35%] sm:w-[25%] md:w-[15%] h-auto"></Image>
+                <div className="flex flex-col items-center align-center p-6">
+                    <p className="font-montserrat">Out Now</p>
+                    <Image src="/out_now_no_arrows.png" alt="out_now" width={0} height={0} sizes="100vw"
+                        className="w-[35%] sm:w-[25%] md:w-[15%] h-auto"></Image>
                 </div>
-                <div className="flex justify-center mt-0">
-                <div className="flex justify-between p-4">
+                
+                <div className="flex justify-center p-4">
                     <div className="social_icon_container">
-                    <FaVk className="social_icon text-[24px] md:text-[32px] lg:text-[40px]"/>
+                        <FaVk className="social_icon text-[32px] md:text-[32px] lg:text-[40px]"/>
                     </div>
+                    
                     <div className="social_icon_container">
-                    <FaFacebookF className="social_icon text-[24px] md:text-[32px] lg:text-[40px]"/>
+                        <FaFacebookF className="social_icon text-[32px] md:text-[32px] lg:text-[40px]"/>
                     </div> 
 
                     <div className="social_icon_container">
-                    <FaYoutube className="social_icon text-[24px] md:text-[32px] lg:text-[40px]"/>
+                        <FaYoutube className="social_icon text-[32px] md:text-[32px] lg:text-[40px]"/>
                     </div> 
 
                     <div className="social_icon_container">
-                    <SiItchdotio className="social_icon text-[24px] md:text-[32px] lg:text-[40px]"/>
+                        <SiItchdotio className="social_icon text-[32px] md:text-[32px] lg:text-[40px]"/>
                     </div> 
-                    </div>
                 </div>
-                <div className="font-montserrat text-white text-[12px] text-center p-8 mx-3">
-                    <p >&copy; 2025.CounterCurrentGames.</p>
+                
+                <div className="font-montserrat text-white text-[12px] md:text-[16px] lg:text-[18px] text-center p-8 mx-3">
+                    <p>&copy; 2025.CounterCurrentGames.</p>
                     <p>All rights to franchise belong to the original owner.Original Creator.
                         This Project was created as a part of our education at Futuregames and is not
                         intended for commercial use.We do not claim any ownership
