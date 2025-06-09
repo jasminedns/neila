@@ -1,6 +1,6 @@
 import { SiItchdotio } from "react-icons/si";
 import TrailerSection from "@/components/TrailerSection";
-
+import "@/styles/globals.css";
 
 export default function Home() {
   return (
