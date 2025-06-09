@@ -11,9 +11,9 @@ export default function Home() {
             <SiItchdotio size={32}/>
             <a href="#" target="_blank" className="hover:underline">Check it out on itcho.io now!</a>
           </div>
-          <TrailerSection />
         </div>
       </div>
+      <TrailerSection />
     </>
   );     
 }
