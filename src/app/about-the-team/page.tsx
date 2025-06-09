@@ -1,6 +1,11 @@
+import DevCard from "@/components/DevCard";
+
 const AboutTheTeam = () => {
     return (
-        <h2>About the team</h2>
+        <>
+            <DevCard />
+        </>
+        
     )
 }
 

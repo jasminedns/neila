@@ -170,3 +170,7 @@ body {
   border: solid 2px #ffd900af;
   color: #ffffffbb;
 }
+
+.devCard__image--container {
+  box-shadow: 2px 18px 31px 2px rgba(255,215,0,0.59);
+}
