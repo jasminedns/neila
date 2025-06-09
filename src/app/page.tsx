@@ -1,5 +1,6 @@
 import { SiItchdotio } from "react-icons/si";
-import "@/app/globals.css";
+import TrailerSection from "@/components/TrailerSection";
+
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
             <SiItchdotio size={32}/>
             <a href="#" target="_blank" className="hover:underline">Check it out on itcho.io now!</a>
           </div>
+          <TrailerSection />
         </div>
       </div>
     </>
-  );
+  );     
 }
