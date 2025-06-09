@@ -1,8 +1,10 @@
+import BackgroundWrapper from "@/components/BackgroundWrapper/backgroundwrapper";
 import Image from "next/image";
 
 const ProjectInfoPage = () => {
     return (
-        <div className="min-h-screen bg-gray-800 p-6  text-white text-xl">
+        <BackgroundWrapper>
+        <div className="min-h-screen p-6  text-white text-xl">
             <div className="flex flex-col md:justify-between md:flex-row m-6">
             <h4 className="font-cinzel m-3 text-3xl font-bold">The Project:</h4>
             <div className="w-[200px]  self-center">
@@ -35,7 +37,7 @@ const ProjectInfoPage = () => {
             </div>
                 
     </div>
-     
+     </BackgroundWrapper>
     );
   };
   
