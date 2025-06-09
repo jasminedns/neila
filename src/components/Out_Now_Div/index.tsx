@@ -1,7 +1,4 @@
 import Image from "next/image"
-import { FaVk, FaFacebookF, FaYoutube } from "react-icons/fa";
-import { SiItchdotio } from "react-icons/si";
-
 
 const Out_Now_Div = () => {
     return (
@@ -11,33 +8,7 @@ const Out_Now_Div = () => {
                     <p className="font-montserrat">Out Now</p>
                     <Image src="/out_now_no_arrows.png" alt="out_now" width={0} height={0} sizes="100vw"
                         className="w-[35%] sm:w-[25%] md:w-[15%] h-auto"></Image>
-                </div>
-                
-                <div className="flex justify-center p-4">
-                    <div className="social_icon_container">
-                        <FaVk className="social_icon text-[32px] md:text-[32px] lg:text-[40px]"/>
-                    </div>
-                    
-                    <div className="social_icon_container">
-                        <FaFacebookF className="social_icon text-[32px] md:text-[32px] lg:text-[40px]"/>
-                    </div> 
-
-                    <div className="social_icon_container">
-                        <FaYoutube className="social_icon text-[32px] md:text-[32px] lg:text-[40px]"/>
-                    </div> 
-
-                    <div className="social_icon_container">
-                        <SiItchdotio className="social_icon text-[32px] md:text-[32px] lg:text-[40px]"/>
-                    </div> 
-                </div>
-                
-                <div className="font-montserrat text-white text-[12px] md:text-[16px] lg:text-[18px] text-center p-8 mx-3">
-                    <p>&copy; 2025.CounterCurrentGames.</p>
-                    <p>All rights to franchise belong to the original owner.Original Creator.
-                        This Project was created as a part of our education at Futuregames and is not
-                        intended for commercial use.We do not claim any ownership
-                        of the original product. </p>
-                </div>
+                </div>     
             </div>
         </>
     )
