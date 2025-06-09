@@ -123,13 +123,22 @@ body {
 
 .font-montserrat {
   font-family: var(--font-montserrat);
+  color:white
 }
 
 .font-cinzel {
   font-family: var(--font-cinzel);
+  color: #FFD700;
 }
 
+<<<<<<< HEAD
 .nav__link {
+=======
+
+.header_div {
+.nav__link {
+
+>>>>>>> 7be485d2a0637a294ddddc7617f7a76b0d8825db
   align-self: center;
   border: solid 2px transparent;
   border-radius: 4px;
@@ -139,7 +148,17 @@ body {
   padding: 8px;
   text-align: center;
 }
+}
 
+<<<<<<< HEAD
+=======
+.header_div:hover {
+  background-color: rgba(0, 0, 0, 0.285);
+  border: solid 2px #ffd900af;
+  color: rgba(255, 255, 255, 0.734);
+}
+
+>>>>>>> 7be485d2a0637a294ddddc7617f7a76b0d8825db
 .hp__button--link {
   background-image: url("../../public/border.png");
   background-position: 100% 5%;
@@ -159,6 +178,10 @@ body {
   position: absolute;
   width: 100%;
   z-index: 20;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7be485d2a0637a294ddddc7617f7a76b0d8825db
 }
 
 .nav__link--active {
@@ -169,4 +192,13 @@ body {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
   color: #ffffffbb;
+<<<<<<< HEAD
 }
+=======
+
+
+}
+
+
+
+>>>>>>> 7be485d2a0637a294ddddc7617f7a76b0d8825db
