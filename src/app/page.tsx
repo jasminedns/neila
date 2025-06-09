@@ -1,4 +1,4 @@
-import TrailerSection from "@/components/TrailerSection/trailer-section";
+import TrailerSection from "@/components/TrailerSection";
 
 export default function Home() { 
   return (
