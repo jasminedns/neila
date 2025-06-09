@@ -4,9 +4,7 @@ const TeamIntro = () => {
     return (
         <>
         <div className="bg-[url('/images/Empty_background.png')] w-full bg-cover relative h-[calc(100vh-100px)] 
-                                                                                        sm:h-[calc(100vh-76px)] 
-                                                                                        md:h-[calc(100vh-60px)] 
-                                                                                        lg:[h-calc(100vh-45px)]">
+                                                                                        sm:h-[calc(100vh-75px)]">
            <Image src="/images/crowd_silhouette.png" alt="crowd_silhouette" width={0}  height={0} sizes="100vw"  
                 className="w-full h-auto object-contain absolute bottom-16 ">
             </Image>
