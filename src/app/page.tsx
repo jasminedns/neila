@@ -1,10 +1,10 @@
 import { SiItchdotio } from "react-icons/si";
 import "@/app/globals.css";
-import BackgroundWrapper from "@/components/BackgroundWrapper/backgroundwrapper";
+
 
 export default function Home() { 
   return (
-    <BackgroundWrapper>
+    <>
       <h1>NEILA</h1>
       <div className="hp__button--link">
         <div className="mx-auto self-center">
@@ -14,6 +14,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </BackgroundWrapper>
+    </>
   );
 }
