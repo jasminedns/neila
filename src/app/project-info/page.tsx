@@ -1,12 +1,14 @@
 import ProjectInfoIntroDiv from "@/components/ProjectInfoIntro";
-import StudentProjectDiv from "@/components/StudentProjectDiv";
+import Out_Now_Div from "@/components/Out_Now_Div";
 
 const ProjectInfoPage = () => {
-    return (   
+    return (
+        <> 
         <div className="min-h-screen bg-[url('/images/Background_dvider.png')] m-o bg-cover p-0  text-white text-xl">
            <ProjectInfoIntroDiv />
-           <StudentProjectDiv />
-        </div>     
+        </div> 
+         <Out_Now_Div />
+         </>
     );
   };
   
