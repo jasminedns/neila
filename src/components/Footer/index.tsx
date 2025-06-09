@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
         <a href="#" aria-label="Itch.io" className="hover:text-[#FFFFFF]"><FaItchIo /></a>
       </div>
       <p className="text-sm max-w-xl mx-auto text-[#FFFFFF]">
-        © 2023, CounterCurrent Games. All rights to the franchise belong to the original owner. 
+        © 2025, CounterCurrent Games. All rights to the franchise belong to the original owner. 
         This project was created as part of our education at Futuregames and is not intended for 
         commercial use. We do not claim any ownership of the original product.
       </p>
