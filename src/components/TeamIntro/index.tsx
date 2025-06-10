@@ -3,8 +3,8 @@ import TeamMenu from "../TeamMenu"
 const TeamIntro = () => {
     return (
         <>
-        <div className="bg-[url('/images/Empty_background.png')] w-full bg-cover relative h-[calc(100vh-100px)] 
-                                                                                        sm:h-[calc(100vh-75px)]">
+        <div className="bg-[url('/images/Empty_background.png')] w-full bg-cover relative h-[calc(100vh-59px)] 
+                                                                                        sm:h-[calc(100vh-59px)]">
             <div className="py-11 md:hidden ">
                 <TeamMenu />
             </div>                                                                              
