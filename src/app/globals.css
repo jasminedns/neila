@@ -9,13 +9,6 @@
   --color-foreground: var(--foreground);
 }
 
-.header_div:hover {
-    background-color: rgba(0, 0, 0, 0.285);
-    border: solid 2px #ffd900af;
-    color: rgba(255, 255, 255, 0.734);
-}
-
-
 /*---Fonts--- */
 
 @font-face {
@@ -139,8 +132,10 @@ body {
 }
 
 
+
 .header_div {
 .nav__link {
+
 
   align-self: center;
   border: solid 2px transparent;
@@ -158,6 +153,7 @@ body {
   border: solid 2px #ffd900af;
   color: rgba(255, 255, 255, 0.734);
 }
+
 
 .hp__button--link {
   background-image: url("../../public/border.png");
@@ -179,6 +175,9 @@ body {
   width: 100%;
   z-index: 20;
 
+
+
+
 }
 
 .nav__link--active {
@@ -190,8 +189,10 @@ body {
   border: solid 2px #ffd900af;
   color: #ffffffbb;
 
+  
 
 }
+
 
 
 
