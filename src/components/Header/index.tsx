@@ -1,7 +1,8 @@
-import "../../app/globals.css"
 import DesktopNav from "@/components/DesktopNav";
+import "../../app/globals.css"
 
 const Header = () => {
+
     return (
         <header className="flex flex-row p-4 justify-center gap-10">
             <DesktopNav />

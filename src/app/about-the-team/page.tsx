@@ -1,9 +1,10 @@
-import TeamIntro from "@/components/TeamIntro";
-
+import BackgroundWrapper from "@/components/BackgroundWrapper"
 
 const AboutTheTeam = () => {
     return (
-        <TeamIntro />
+        
+            <h2>About the team</h2>
+        
     )
 }
 

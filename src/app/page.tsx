@@ -1,6 +1,8 @@
 import { SiItchdotio } from "react-icons/si";
+import "@/app/globals.css";
 
-export default function Home() {
+
+export default function Home() { 
   return (
     <>
       <h1>NEILA</h1>
@@ -13,5 +15,5 @@ export default function Home() {
         </div>
       </div>
     </>
-  );     
+  );
 }
