@@ -1,4 +1,3 @@
-import Out_Now_Div from "@/components/Out_Now_Div";
 import Image from "next/image";
 
 const ProjectInfoPage = () => {
@@ -37,7 +36,6 @@ const ProjectInfoPage = () => {
             </div>
                 
     </div>
-    <Out_Now_Div />
     </>
     );
   };
