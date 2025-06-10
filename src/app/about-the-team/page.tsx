@@ -1,4 +1,4 @@
-import BackgroundWrapper from "@/components/BackgroundWrapper"
+
 
 const AboutTheTeam = () => {
     return (

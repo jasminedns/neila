@@ -1,4 +1,4 @@
-import BackgroundWrapper from "@/components/BackgroundWrapper";
+
 import Image from "next/image";
 
 const ProjectInfoPage = () => {
