@@ -131,12 +131,7 @@ body {
   color: #FFD700;
 }
 
-
-
 .header_div {
-.nav__link {
-
-
   align-self: center;
   border: solid 2px transparent;
   border-radius: 4px;
@@ -146,14 +141,12 @@ body {
   padding: 8px;
   text-align: center;
 }
-}
 
 .header_div:hover {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
   color: rgba(255, 255, 255, 0.734);
 }
-
 
 .hp__button--link {
   background-image: url("../../public/border.png");
@@ -174,10 +167,17 @@ body {
   position: absolute;
   width: 100%;
   z-index: 20;
+}
 
-
-
-
+.nav__link {
+  align-self: center;
+  border: solid 2px transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  min-width: 137px;
+  padding: 8px;
+  text-align: center;
 }
 
 .nav__link--active {
@@ -188,11 +188,16 @@ body {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
   color: #ffffffbb;
-
-  
-
 }
 
+.devCard__image--container {
+  box-shadow: 2px 18px 31px 2px rgba(255,215,0,0.59);
+}
 
-
-
+.front-end div,
+.art div,
+.game div,
+.programming div,
+.production div {
+  flex-wrap: wrap;
+}
