@@ -13,7 +13,14 @@ const StudentProjectDiv = () => {
                 </div>
              
                 <div className="relative z-10">
-                    student project div comes here when we put student div bg gets extended 
+                    <h4 className="font-cinzel m-4">A student-led Project</h4>
+                    <div className="font-montserrat text-[18px] m-2">
+                    <li className="m-4">This Project allowed us work side by side with students from other programs,each bringing our unique expertise ,
+                        and experience what it's like to develop projects in real world team settings.</li>
+                    <li className="m-4">This experience has strengthened our abilities to collaborate effectively,take the lead when needed,
+                        and tackle challenges with a proactive mindset.All skills that benefit us greatly in the future.</li> 
+                    <li className="m-4">A special thanks to Futuregames for this unique opportunity of learning by doing.</li>
+                    </div>
                 </div>
             </div>
         </>
