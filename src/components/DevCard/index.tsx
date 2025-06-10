@@ -5,7 +5,7 @@ import { devTypes } from "@/utils/types"
 const DevCard = ({name, category, role, image }:devTypes) => {
     return (
         <> 
-            <div className="flex flex-col m-[48px] font-montserrat sm: m-[24px]">
+            <div className="flex flex-col m-[24px] font-montserrat md:m-[48px]">
                 <div className="border-3 border-[#FFD700] w-[100%] devCard__image--container">
                     <img 
                         src={image} 
