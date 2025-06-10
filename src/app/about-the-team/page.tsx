@@ -1,9 +1,10 @@
 import DevCard from "@/components/DevCard";
+import DevCategory from "@/components/DevCategory";
 
 const AboutTheTeam = () => {
     return (
         <>
-            <DevCard />
+            <DevCategory />
         </>
         
     )
