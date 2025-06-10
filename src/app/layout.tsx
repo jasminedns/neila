@@ -27,13 +27,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <BackgroundWrapper>
       <body
         className={` ${montserrat.variable} ${cinzel.variable} antialiased`}>
+      <BackgroundWrapper>    
         <Header />
         {children}
+      </BackgroundWrapper>
       </body>
-    </BackgroundWrapper>
     </html>
   );
 }
