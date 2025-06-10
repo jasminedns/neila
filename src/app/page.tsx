@@ -1,5 +1,4 @@
 import { SiItchdotio } from "react-icons/si";
-import TrailerSection from "@/components/TrailerSection";
 
 export default function Home() {
   return (
