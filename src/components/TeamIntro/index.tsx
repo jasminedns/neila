@@ -16,7 +16,7 @@ const TeamIntro = () => {
                 className="w-full h-auto object-contain absolute bottom-0 opacity-75">
             </Image>   
 
-            <div className="absolute bottom-80 sm:bottom-70 md:bottom-75 lg:bottom-50 flex justify-center w-full shadow-inner ">
+            <div className="absolute bottom-70 md:bottom-75 lg:bottom-50 flex justify-center w-full shadow-inner ">
                 <Image src="/images/Meet_the_team.png" alt="meet_the_team" width={0} height={0} sizes="100vw"
                 className="w-[250px] sm:w-[250px] md:w-[350px] h-auto shadow-inner"></Image>
             </div>
