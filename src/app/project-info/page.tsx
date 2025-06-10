@@ -1,3 +1,4 @@
+import StudentProjectDiv from "@/components/StudentProjectDiv";
 import Image from "next/image";
 
 const ProjectInfoPage = () => {
@@ -33,7 +34,7 @@ const ProjectInfoPage = () => {
                     <li className="mt-3 text-justify font-montserrat text-lg">The game should tell its narrative primarily through the environment, without interruptiong the gameplay.
                     (show don't tell)</li>
             </div>
-                
+                <StudentProjectDiv />
     </div>
      
     );
