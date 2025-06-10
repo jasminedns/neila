@@ -1,17 +1,16 @@
-
 import Image from "next/image";
 
 const ProjectInfoPage = () => {
     return (
-      
+      <>
         <div className="min-h-screen p-6  text-white text-xl">
             <div className="flex flex-col md:justify-between md:flex-row m-6">
-            <h4 className="font-cinzel m-3 text-3xl font-bold">The Project:</h4>
-            <div className="w-[200px]  self-center">
-            <Image src="/futuregame_logo.png" alt="futuregame_logo" width={0}  height={0} sizes="100vw" 
-             className="w-full h-auto">
-            </Image>
-            </div>
+                <h4 className="font-cinzel m-3 text-3xl font-bold">The Project:</h4>
+                    <div className="w-[200px]  self-center">
+                    <Image src="/futuregame_logo.png" alt="futuregame_logo" width={0}  height={0} sizes="100vw" 
+                            className="w-full h-auto">
+                    </Image>
+                    </div>
             </div>
             <li className="m-6 mt-8 font-montserrat text-lg">Project Neila is in early development.We welcome all feedback-especially
              on the feel and clarity of the core gameplay.</li>
@@ -37,7 +36,8 @@ const ProjectInfoPage = () => {
             </div>
                 
     </div>
-     
+
+    </>
     );
   };
   

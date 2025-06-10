@@ -3,6 +3,9 @@ import { Montserrat , Cinzel_Decorative} from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import BackgroundWrapper from "@/components/BackgroundWrapper";
+import Out_Now_Div from "@/components/Out_Now_Div";
+
+
 const cinzel = Cinzel_Decorative({
   subsets:['latin'],
   weight:["700"],
@@ -33,6 +36,7 @@ export default function RootLayout({
         <Header />
         {children}
     </BackgroundWrapper>
+        <Out_Now_Div />
       </body>
     </html>
   );
