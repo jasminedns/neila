@@ -9,13 +9,6 @@
   --color-foreground: var(--foreground);
 }
 
-.header_div:hover {
-    background-color: rgba(0, 0, 0, 0.285);
-    border: solid 2px #ffd900af;
-    color: rgba(255, 255, 255, 0.734);
-}
-
-
 /*---Fonts--- */
 
 @font-face {
@@ -138,27 +131,6 @@ body {
   color: #FFD700;
 }
 
-
-.header_div {
-.nav__link {
-
-  align-self: center;
-  border: solid 2px transparent;
-  border-radius: 4px;
-  cursor: pointer;
-  color: white;
-  min-width: 137px;
-  padding: 8px;
-  text-align: center;
-}
-}
-
-.header_div:hover {
-  background-color: rgba(0, 0, 0, 0.285);
-  border: solid 2px #ffd900af;
-  color: rgba(255, 255, 255, 0.734);
-}
-
 .hp__button--link {
   background-image: url("../../public/border.png");
   background-position: 100% 5%;
@@ -178,7 +150,17 @@ body {
   position: absolute;
   width: 100%;
   z-index: 20;
+}
 
+.nav__link {
+  align-self: center;
+  border: solid 2px transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  min-width: 137px;
+  padding: 8px;
+  text-align: center;
 }
 
 .nav__link--active {
@@ -190,18 +172,4 @@ body {
   border: solid 2px #ffd900af;
   color: #ffffffbb;
 }
-
-.social_icon_container {
-  background-color: white;
-  border-radius: 50%;
-  margin-right: 16px;
-}
-
-.social_icon {
-  padding: 4px;
-}
-
-
-
-
 
