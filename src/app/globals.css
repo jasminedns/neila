@@ -123,10 +123,12 @@ body {
 
 .font-montserrat {
   font-family: var(--font-montserrat);
+  color:white
 }
 
 .font-cinzel {
   font-family: var(--font-cinzel);
+  color: #FFD700;
 }
 
 .hp__button--link {
