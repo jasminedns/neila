@@ -1,6 +1,6 @@
 export default function TrailerSection() {
   return (
-    <div className="bg-black py-20 px-6">
+    <div className="bg-transparent py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row gap-16">
           
