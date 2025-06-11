@@ -182,3 +182,7 @@ body {
 .production div {
   flex-wrap: wrap;
 }
+
+.front-end {
+  margin-bottom: 0;
+}
