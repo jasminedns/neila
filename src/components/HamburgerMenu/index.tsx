@@ -25,7 +25,7 @@ const HamburgerMenu = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute top-12 right-0 bg-[#101010]/90 w-64 shadow-lg rounded p-4 flex flex-col space-y-3">
+         <div className="absolute top-12 right-0 bg-[#101010]/90 w-64 shadow-lg rounded p-4 flex flex-col space-y-3 font-montserrat">
           {menuItems.map((item) => (
             <Link
               key={item.href}
