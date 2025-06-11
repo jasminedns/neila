@@ -3,6 +3,8 @@ import { Montserrat , Cinzel_Decorative} from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import HomePageLogo from "@/components/HomePageLogo";
+
 
 const cinzel = Cinzel_Decorative({
   subsets:['latin'],

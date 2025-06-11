@@ -1,6 +1,7 @@
 import DesktopNav from "@/components/DesktopNav";
 import "../../app/globals.css"
 import HamburgerMenu from "../HamburgerMenu"
+import HomePageLogo from "../HomePageLogo";
 
 const Header = () => {
 
