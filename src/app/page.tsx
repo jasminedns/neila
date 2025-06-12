@@ -1,6 +1,7 @@
 import { SiItchdotio } from "react-icons/si";
 import "@/app/globals.css";
 
+
 export default function Home() { 
   return (
     <>
