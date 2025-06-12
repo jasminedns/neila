@@ -1,5 +1,6 @@
 import { SiItchdotio } from "react-icons/si";
 import "@/app/globals.css";
+import StoryElement from "@/components/StoryElement";
 
 
 export default function Home() { 
@@ -14,6 +15,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <StoryElement/>
     </>
   );
 }
