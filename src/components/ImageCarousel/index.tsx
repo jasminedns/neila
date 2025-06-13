@@ -1,17 +1,17 @@
 'use client';
 import { useState } from "react";
-import { IoArrowBack, IoArrowForward } from 'react-icons/io5';
+import { IoChevronBack, IoChevronForward } from 'react-icons/io5';
 import Image from "next/image";
 
 const images = [
-    '/images/test.jpg',
-    '/images/test.jpg',
-    '/images/test.jpg',
-    '/images/test.jpg',
-    '/images/test.jpg',
-    '/images/test.jpg',
-    '/images/test.jpg',
-    '/images/test.jpg',
+  '/images/test.jpg',
+  '/images/Dvider_01.png',
+  '/images/test.jpg',
+  '/images/Dvider_01.png',
+  '/images/test.jpg',
+  '/images/Dvider_01.png',
+  '/images/test.jpg',
+  '/images/Dvider_01.png',
 ];
 
 const ImageCarousel = () => {
@@ -32,21 +32,16 @@ const ImageCarousel = () => {
   const visibleImages = images.slice(startIndex, startIndex + 3);
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4">
-
-      <div className="flex justify-between items-center mb-4">
-        <button className="text-white text-3xl hover:scale-125 transition-transform">
-          <IoArrowBack onClick={prev} />
-        </button>
-        <button  className="text-white text-3xl hover:scale-125 transition-transform">
-          <IoArrowForward onClick={next} />
-        </button>
-      </div>
-
-      {/* Bilder */}
-      <div className="flex gap-4 overflow-hidden">
+    <div className="w-full flex justify-center items-center gap-4 mt-10 mb-20">
+      <button onClick={prev} className="hover:scale-125 transition-transform">
+        <IoChevronBack size={42} color="gold" />
+      </button>
+      <div className="flex gap-4">
         {visibleImages.map((src, index) => (
-          <div key={index} className="relative w-1/3 h-64 rounded-xl overflow-hidden">
+          <div
+            key={index}
+            className="relative w-[400px] h-60 overflow-hidden border-2 border-[#FFD700]"
+          >
             <Image
               src={src}
               alt={`Image ${index}`}
@@ -57,6 +52,9 @@ const ImageCarousel = () => {
           </div>
         ))}
       </div>
+      <button onClick={next} className="hover:scale-125 transition-transform">
+        <IoChevronForward size={42} color="gold" />
+      </button>
     </div>
   );
 };
