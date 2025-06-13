@@ -1,5 +1,6 @@
 import { SiItchdotio } from "react-icons/si";
 import "@/app/globals.css";
+import Mechanics_Element from "@/components/Mechanics_Element";
 
 
 export default function Home() { 
@@ -14,6 +15,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Mechanics_Element />
     </>
   );
 }
