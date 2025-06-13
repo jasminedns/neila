@@ -121,11 +121,4 @@ export const dev = [
         category: "Front-end Team",
         role: ["Front-end Developer"]
     }
-].map(item => ({...item, 
-    image: `/devs/${item.name.split(" ")[0].toLowerCase()}.png`
-}))
-
-// <img src={item.image} 
-//      alt={item.name} 
-//      onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/devs/unknown.png'; }} 
-// />
+];
