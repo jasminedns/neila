@@ -132,14 +132,14 @@ body {
 }
 
 .header_div {
-    align-self: center;
-    border: solid 2px transparent;
-    border-radius: 4px;
-    cursor: pointer;
-    color: white;
-    min-width: 100px;
-    padding: 8px;
-    text-align: center;
+  align-self: center;
+  border: solid 2px transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  min-width: 100px;
+  padding: 8px;
+  text-align: center;
 }
 
 .header_div:hover,
@@ -147,18 +147,6 @@ body {
     background-color: rgba(0, 0, 0, 0.285);
     border: solid 2px #ffd900af;
     color: rgba(255, 255, 255, 0.734);
-}
-
-.hp__button--link {
-  background-image: url("../../public/border.png");
-  background-position: 100% 5%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  min-height: 248px;
-  position: relative;
-  z-index: 10;
 }
 
 .nav__link {
@@ -197,5 +185,3 @@ body {
 .front-end {
   margin-bottom: 0;
 }
-
-
