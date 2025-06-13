@@ -1,4 +1,5 @@
 import CoverImage from "../CoverImage"
+import ImageCarousel from "../ImageCarousel"
 
 const StoryElement = () => {
     return (
@@ -20,6 +21,7 @@ const StoryElement = () => {
         <div className="flex justify-start -mt-98 mb-20 ml-13">
             <CoverImage/>
             </div>
+            <ImageCarousel/>
         </>
     )
 }
