@@ -5,13 +5,9 @@ import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 
 const menuItems = [
-  { label: 'About the Game', href: '/game' },
+  { label: 'About the Game', href: '/' },
   { label: 'About the Team', href: '/team' },
-  { label: 'Project Info', href: '/project' },
-  { label: 'Developers', href: '/team/developers' },
-  { label: 'Designers', href: '/team/designers' },
-  { label: 'Artists', href: '/team/artists' },
-  { label: 'Managers', href: '/team/managers' },
+  { label: 'Project Info', href: '/project' }
 ];
 
 const HamburgerMenu = () => {
@@ -25,12 +21,12 @@ const HamburgerMenu = () => {
       </button>
 
       {isOpen && (
-         <div className="absolute top-12 right-0 bg-[#101010]/90 w-64 shadow-lg rounded p-4 flex flex-col space-y-3 font-montserrat">
+         <div className="absolute top-12 right-[-35%] bg-black/80 w-64 shadow-lg p-4 flex flex-col space-y-3 font-montserrat border-[#FFD700] border-b-[4px]">
           {menuItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="text-white hover:text-[#FFD700] transition-colors duration-200"
+              className="text-white text-center focus:text-[#FFD700] transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
               {item.label}

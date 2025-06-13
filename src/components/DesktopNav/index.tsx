@@ -19,7 +19,7 @@ const DesktopNav = () => {
     ]
 
     return (
-        <nav className="flex gap-4 justify-center">
+        <nav className="hidden md:flex md:gap-4 md:justify-center">
             {links.map((item, index) => (
                 <Link 
                     key={index}
