@@ -4,7 +4,7 @@ import "../../app/globals.css"
 const Header = () => {
 
     return (
-        <header className="flex flex-row p-4 justify-center gap-10 max-md:hidden">
+        <header className="flex flex-row p-4 justify-center gap-10">
             <DesktopNav />
         </header>
     )
