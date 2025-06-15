@@ -5,8 +5,6 @@ import Header from "@/components/Header";
 import BackgroundWrapper from "@/components/BackgroundWrapper";
 import Out_Now_Div from "@/components/Out_Now_Div";
 import Footer from "@/components/Footer";
-import HomePageLogo from "@/components/HomePageLogo";
-
 
 const cinzel = Cinzel_Decorative({
   subsets:['latin'],

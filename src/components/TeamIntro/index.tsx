@@ -1,12 +1,18 @@
 import Image from "next/image"
 import TeamMenu from "../TeamMenu"
-const TeamIntro = () => {
+
+interface TeamIntroTypes {
+    clickedCat: (category: string) => void;
+    chosenCategory: string | null;
+}
+
+const TeamIntro = ({ clickedCat, chosenCategory }: TeamIntroTypes) => {
     return (
         <>
         <div className="bg-[url('/images/Empty_background.png')] w-full bg-cover relative h-[calc(100vh-59px)] 
                                                                                         sm:h-[calc(100vh-59px)]">
             <div className="py-11 md:hidden ">
-                <TeamMenu />
+                <TeamMenu category={clickedCat} chosenCat={chosenCategory}/>
             </div>                                                                              
            <Image src="/images/crowd_silhouette.png" alt="crowd_silhouette" width={0}  height={0} sizes="100vw"  
                 className="w-full h-auto object-contain absolute bottom-16 ">
@@ -21,8 +27,8 @@ const TeamIntro = () => {
                 className="w-[250px] sm:w-[250px] md:w-[350px] h-auto shadow-inner"></Image>
             </div>
 
-            <div className="py-11 hidden md:block absolute bottom-5 md:left-[15%] lg:left-[35%]">
-                <TeamMenu />
+            <div className="py-11 hidden md:block absolute bottom-5 left-1/2 transform -translate-x-1/2">
+                <TeamMenu category={clickedCat} chosenCat={chosenCategory}/>
             </div> 
         </div>
         </>

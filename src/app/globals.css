@@ -144,9 +144,8 @@ body {
 
 .header_div:hover,
 .team_button {
-    background-color: rgba(0, 0, 0, 0.285);
-    border: solid 2px #ffd900af;
-    color: rgba(255, 255, 255, 0.734);
+  border: solid 2px #ffd900af;
+  color: rgba(255, 255, 255, 0.734);
 }
 
 .nav__link {
