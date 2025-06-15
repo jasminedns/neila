@@ -33,6 +33,7 @@ export default function RootLayout({
         className={` ${montserrat.variable} ${cinzel.variable} antialiased`}>
       <BackgroundWrapper>
         <Header />
+       
         {children}
         <Out_Now_Div />
       </BackgroundWrapper>
