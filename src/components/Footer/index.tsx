@@ -1,8 +1,4 @@
-
-
-import React from "react";
 import {FaVk, FaFacebookF, FaYoutube, FaItchIo} from  "react-icons/fa";
-
 
 const Footer: React.FC = () => {
     return (
@@ -34,6 +30,7 @@ const Footer: React.FC = () => {
                   of the original product. </p>
         </div>
       
+
     </footer>
     );
     }
