@@ -3,13 +3,16 @@ import Image from "next/image"
 const Out_Now_Div = () => {
     return (
         <>
-            <div className="bg-[linear-gradient(38deg,_rgba(8,8,8,1)_0%,_rgba(0,0,0,1)_51%,_rgba(87,83,66,1)_90%,_rgba(145,122,71,1)_97%)]">
-                <div className="flex flex-col items-center align-center p-6">
-                    <p className="font-montserrat">Out Now</p>
+        <div className="flex flex-col items-center text-center align-center py-6">
+            <p className="font-montserrat text-[14px] md:text-[20px] mx-12">Out Now</p>
+        
+                <a href = "https://futuregames.itch.io/project-neila">
                     <Image src="/out_now_no_arrows.png" alt="out_now" width={0} height={0} sizes="100vw"
-                        className="w-[35%] sm:w-[25%] md:w-[15%] h-auto"></Image>
-                </div>     
-            </div>
+                        className="w-[75%]  h-auto md:mx-12"></Image>
+                            </a>
+                            </div> 
+                   
+           
         </>
     )
 }
