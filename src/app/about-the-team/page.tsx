@@ -1,6 +1,14 @@
+import TeamIntro from "@/components/TeamIntro";
+import DevCategory from "@/components/DevCategory";
+import Team_Page_pragraph from "@/components/Team_Page_Paragraph";
+
 const AboutTheTeam = () => {
     return (
-        <h2>About the team</h2>
+        <>
+            <TeamIntro />
+            <DevCategory />
+            <Team_Page_pragraph />
+        </>
     )
 }
 
