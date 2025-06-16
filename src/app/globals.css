@@ -137,6 +137,12 @@ body {
   color: #FFD700;
 }
 
+.header_div:hover {
+  background-color: rgba(0, 0, 0, 0.285);
+  border: solid 2px #ffd900af;
+  color: rgba(255, 255, 255, 0.734);
+}
+
 .header_div:hover,
 .team_button {
     background-color: rgba(0, 0, 0, 0.285);
@@ -154,15 +160,6 @@ body {
   min-height: 248px;
   position: relative;
   z-index: 10;
-}
-
-.hp__button--link::before {
-  background-color: rgba(0, 0, 0, 0.285);
-  content: "";
-  min-height: 248px;
-  position: absolute;
-  width: 100%;
-  z-index: 20;
 }
 
 .nav__link {
@@ -184,7 +181,6 @@ body {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
   color: #ffffffbb;
-
 }
 
 .devCard__image--container {
