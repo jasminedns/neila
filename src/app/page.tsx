@@ -1,13 +1,9 @@
-
 import { SiItchdotio } from "react-icons/si";
 import "@/app/globals.css";
-
 import TrailerSection from "@/components/TrailerSection";
-
 import StoryElement from "@/components/StoryElement";
 import HomePageLogo from "@/components/HomePageLogo";
 import Mechanics_Element from "@/components/Mechanics_Element";
-
 
 export default function Home() { 
   return (
