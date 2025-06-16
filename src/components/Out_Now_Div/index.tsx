@@ -9,8 +9,8 @@ const Out_Now_Div = () => {
                 <a href = "https://futuregames.itch.io/project-neila" className="flex justify-center">
                     <Image src="/out_now_no_arrows.png" alt="out_now" width={0} height={0} sizes="100vw"
                         className=" w-[100%]  md:w-[75%] lg:w-[50%] h-auto md:mx-12"></Image>
-                            </a>
-                            </div> 
+                </a>
+        </div> 
                    
            
         </>

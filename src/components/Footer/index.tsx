@@ -9,7 +9,8 @@ const Footer: React.FC = () => {
               <p className="text-center">All rights to franchise belong to the original owner.Original Creator.
                   This Project was created as a part of our education at Futuregames and is not
                   intended for commercial use.We do not claim any ownership
-                  of the original product. </p>
+                  of the original product. 
+              </p>
         </div>
       
 
