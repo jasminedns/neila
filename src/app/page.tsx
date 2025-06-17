@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <>
       <HomePageLogo />
+      <h1 className="hidden">NEILA</h1>
       <div className="hp__button--link">
         <div className="mx-auto self-center">
           <div className="p-3 border-2 flex flex-row items-center justify-center gap-3 border-[#FFD700]/25 rounded-sm relative z-30">
