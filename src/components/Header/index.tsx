@@ -1,13 +1,13 @@
 import DesktopNav from "@/components/DesktopNav";
 import "../../app/globals.css"
-import HamburgerMenu from "../HamburgerMenu"
-import HomePageLogo from "../HomePageLogo";
+import HamburgerMenu from "../HamburgerMenu";
 
 const Header = () => {
 
     return (
-        <header className="flex flex-row p-4 justify-center gap-10">
+        <header className="flex flex-row p-4 justify-end md:justify-center gap-10 bg-black/80">
             <DesktopNav />
+            <HamburgerMenu />           
         </header>
     )
 }
