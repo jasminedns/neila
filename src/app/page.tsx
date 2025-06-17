@@ -8,7 +8,7 @@ import Mechanics_Element from "@/components/Mechanics_Element";
 export default function Home() { 
   return (
     <>
-      <h1>NEILA</h1>
+      <h1 className="hidden">NEILA</h1>
 
       <div className="hp__button--link">
         <HomePageLogo />
