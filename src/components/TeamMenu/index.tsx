@@ -28,7 +28,7 @@ const TeamMenu = ({ category }: TeamMenuTypes) => {
 
       {/* Mobile */}
   <div className="md:hidden z-50">
-  <div className="flex flex-row-reverse items-center justify-end absolute top-[95%] -translate-y-1/2 gap-2 w-full px-4 z-40">
+  <div className="flex flex-row-reverse items-center justify-end absolute top-[95%] sm:top-[90%] -translate-y-1/2 gap-2 w-full px-4 z-40">
     
     <div className="absolute ml-12 right-0 top-1/2 transform -translate-y-1/2">
     <button onClick={() => setOpen(!open)} className="p-2 rounded-full bg-black shadow-lg">
@@ -52,7 +52,7 @@ const TeamMenu = ({ category }: TeamMenuTypes) => {
             onClick={() => {
               category(cat);
             }}
-            className="sm:w-[120px] text-center text-white font-semibold text-[11px] sm:text-sm py-1 px-2 sm:py-2 sm:px-3 rounded-sm bg-[#00000078] hover:bg-yellow-500 hover:text-black border-[1px] border-[#ffd900af] transition"
+            className="sm:w-[120px] text-center text-[#fffb] font-semibold text-[11px] sm:text-sm py-1 px-2 sm:py-2 sm:px-3 rounded-sm bg-[#00000078] hover:bg-yellow-500 hover:text-black border-[2px] border-[#ffd900af] transition"
           >
             {cat}
           </p>
