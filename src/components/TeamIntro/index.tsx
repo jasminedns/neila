@@ -27,7 +27,7 @@ const TeamIntro = ({ clickedCat, chosenCategory }: TeamIntroTypes) => {
                 className="w-[250px] sm:w-[250px] md:w-[350px] h-auto shadow-inner"></Image>
             </div>
 
-            <div className="py-11 hidden md:block absolute bottom-5 left-1/2 transform -translate-x-1/2">
+            <div className="hidden md:flex justify-center gap-4 py-6 bottom-5">
                 <TeamMenu category={clickedCat} chosenCat={chosenCategory}/>
             </div> 
         </div>
