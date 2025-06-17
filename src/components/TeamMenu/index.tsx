@@ -27,8 +27,8 @@ const TeamMenu = ({ category }: TeamMenuTypes) => {
       </div>
 
       {/* Mobile */}
-  <div className="md:hidden relative z-50">
-  <div className="flex flex-row-reverse items-center justify-end transform translate-y-[75vh] gap-2 w-full px-4">
+  <div className="md:hidden z-50">
+  <div className="flex flex-row-reverse items-center justify-end absolute top-[95%] -translate-y-1/2 gap-2 w-full px-4 z-40">
     
     <div className="absolute ml-12 right-0 top-1/2 transform -translate-y-1/2">
     <button onClick={() => setOpen(!open)} className="p-2 rounded-full bg-black shadow-lg">
