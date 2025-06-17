@@ -8,7 +8,7 @@ import StoryElement from "@/components/StoryElement";
 export default function Home() { 
   return (
     <>
-
+      <h1 className="hidden">NEILA</h1>
       <HomePageLogo />
       <div className="absolute bottom-0 md:top[74%] lg:top-[74%] w-full min-h-[248px] flex justify-center bg-cover bg-[url('/border.png')] bg-[position:100%_5%] z-10">
 
@@ -20,7 +20,6 @@ export default function Home() {
         </div>
       </div>
       <StoryElement/>
-
       <Mechanics_Element />
     </>
   );
