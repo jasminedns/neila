@@ -52,7 +52,7 @@ const TeamMenu = ({ category }: TeamMenuTypes) => {
             onClick={() => {
               category(cat);
             }}
-            className="sm:w-[120px] text-center text-[#fffb] font-semibold text-[11px] sm:text-sm py-1 px-2 sm:py-2 sm:px-3 rounded-sm bg-[#00000078] hover:bg-yellow-500 hover:text-black border-[2px] border-[#ffd900af] transition"
+            className="font-montserrat sm:w-[120px] text-center text-[#fffb] text-[11px] sm:text-sm py-1 px-2 sm:py-2 sm:px-3 rounded-sm bg-[#00000078] hover:bg-yellow-500 hover:text-black border-[2px] border-[#ffd900af] transition"
           >
             {cat}
           </p>
