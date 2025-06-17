@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Montserrat , Cinzel_Decorative} from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "../components/Header";
+import BackgroundWrapper from "../components/BackgroundWrapper";
 import Out_Now_Div from "@/components/Out_Now_Div";
-import BackgroundWrapper from "@/components/BackgroundWrapper";
+import Footer from "@/components/Footer";
 
 const cinzel = Cinzel_Decorative({
   subsets:['latin'],
@@ -34,10 +34,9 @@ export default function RootLayout({
         className={` ${montserrat.variable} ${cinzel.variable} antialiased`}>
       <BackgroundWrapper>
         <Header />
-       
         {children}
         <Out_Now_Div />
-        <Footer />
+         <Footer />
       </BackgroundWrapper>
       </body>
     </html>
