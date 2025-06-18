@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 const menuItems = [
   { label: 'About the Game', href: '/' },
-  { label: 'About the Team', href: '/team' },
-  { label: 'Project Info', href: '/project' }
+  { label: 'About the Team', href: '/about-the-team' },
+  { label: 'Project Info', href: '/project-info' }
 ];
 
 const HamburgerMenu = () => {
