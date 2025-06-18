@@ -14,24 +14,24 @@ const ProjectInfoIntroDiv = () => {
         </div>
         
         <div className="mx-12 mb-16">
-            <li className="mt-8 mb-8 font-montserrat text-xl leading-relaxed">
+            <li className="mt-8 mb-8 font-montserrat text-xl leading-relaxed text-white">
                 Project Neila is in early development. We welcome all feedback-especially
                 on the feel and clarity of the core gameplay.
             </li>
             
-            <h5 className="mt-12 mb-8 text-2xl font-montserrat font-semibold">Our Design Goals:</h5>
+            <h5 className="mt-12 mb-8 text-2xl font-montserrat font-semibold text-white">Our Design Goals:</h5>
                         
             <div className="mb-8"> 
-                <h6 className="font-bold mt-8 mb-4 text-justify text-xl md:text-2xl">Player Freedom</h6>
-                <li className="font-montserrat text-xl leading-relaxed text-justify">
+                <h6 className="font-bold mt-8 mb-4 text-justify text-xl md:text-2xl text-white">Player Freedom</h6>
+                <li className="font-montserrat text-xl leading-relaxed text-justify text-white">
                     We want to encourage player freedom by allowing players to tackle 
                     obstacles and combat scenarios in a variety of ways, with many solutions to every problem.
                 </li>
             </div> 
             
             <div className="mb-8">
-                <h6 className="font-bold mt-8 mb-4 text-xl md:text-2xl">Emergent Gameplay</h6>
-                <li className="font-montserrat text-xl leading-relaxed text-justify">
+                <h6 className="font-bold mt-8 mb-4 text-xl md:text-2xl text-white">Emergent Gameplay</h6>
+                <li className="font-montserrat text-xl leading-relaxed text-justify text-white">
                     Game mechanics should be designed and implemented in a flexible way such that their interactions
                     lead to novel and interesting outcomes in gameplay.
                 </li>
