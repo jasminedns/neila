@@ -137,6 +137,10 @@ body {
   color: #FFD700;
 }
 
+.header_div{
+  z-index: 10;
+}
+
 .header_div:hover {
   background-color: rgba(0, 0, 0, 0.285);
   border: solid 2px #ffd900af;
@@ -197,3 +201,18 @@ body {
 .front-end {
   margin-bottom: 0;
 }
+
+@media (orientation: landscape) {
+
+  .team_logo {
+    display: none;
+  }
+}
+
+@media (orientation : portrait) {
+  .team_logo_landscape {
+    display: none;
+  }
+}
+
+
