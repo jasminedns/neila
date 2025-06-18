@@ -131,6 +131,7 @@ body {
   color: #FFD700;
 }
 
+
 .header_div {
   align-self: center;
   border: solid 2px transparent;
@@ -140,6 +141,12 @@ body {
   min-width: 100px;
   padding: 8px;
   text-align: center;
+}
+
+.header_div:hover {
+  background-color: rgba(0, 0, 0, 0.285);
+  border: solid 2px #ffd900af;
+  color: rgba(255, 255, 255, 0.734);
 }
 
 
@@ -185,3 +192,18 @@ body {
 .front-end {
   margin-bottom: 0;
 }
+
+@media (orientation: landscape) {
+
+  .team_logo {
+    display: none;
+  }
+}
+
+@media (orientation : portrait) {
+  .team_logo_landscape {
+    display: none;
+  }
+}
+
+
