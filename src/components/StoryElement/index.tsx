@@ -5,7 +5,10 @@ const StoryElement = () => {
     return (
         <>
         <div>
-            <h3 className="relative font-cinzel text-gold text-2xl text-center font-bold m-5 lg:mr-50 lg:mb-5 lg:mt-50 lg:text-right md:text-4xl">
+
+            <h3 className="relative font-cinzel text-gold text-2xl text-center font-bold mt-64 mb-16 mx-4 md:mt-80 md:mb-16 lg:mr-48 lg:mb-12 lg:mt-48 lg:text-right md:text-4xl">
+
+
                 The Story :
             </h3>
             <div className=" flex justify-center lg:justify-end min-h-[150px]">
