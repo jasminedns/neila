@@ -3,15 +3,7 @@ import { Montserrat , Cinzel_Decorative} from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import BackgroundWrapper from "../components/BackgroundWrapper";
-<<<<<<< HEAD
 import Footer from "@/components/Footer";
-
-
-=======
-
-import Footer from "@/components/Footer";
-
->>>>>>> ticket-35/mobile-team-menu
 
 const cinzel = Cinzel_Decorative({
   subsets:['latin'],
@@ -42,15 +34,7 @@ export default function RootLayout({
       <BackgroundWrapper>
         <Header />
         {children}
-<<<<<<< HEAD
         <Footer />
-         
-=======
-
-   
-         <Footer />
->>>>>>> ticket-35/mobile-team-menu
-
       </BackgroundWrapper>
       </body>
     </html>
