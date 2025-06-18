@@ -4,7 +4,7 @@ const ProjectInfoIntroDiv = () => {
     return (
         <>
          <div className="flex flex-col md:justify-between md:flex-row mx-6 my-0 p-7">
-            <h4 className="text-amber-300 m-3 text-2xl md:text-3xl font-bold font-cinzel">The Project:</h4>
+            <h1 className="text-amber-300 m-3 text-2xl md:text-3xl font-bold font-cinzel">Project Neila:</h1>
             
             <div className="w-[200px] self-center">
                 <Image src="/images/futuregame_logo.png" alt="futuregame_logo" width={0} height={0} sizes="100vw" 
