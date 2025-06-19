@@ -4,7 +4,7 @@ const StudentProjectDiv = () => {
     return (
         <>  
             <div className="mx-12 mb-16">
-                <h4 className="font-cinzel mt-12 mb-8 text-2xl font-semibold">A student-led Project</h4>
+                <h4 className="font-cinzel mt-12 mb-8 text-2xl font-semibold text-white">A student-led Project</h4>
                 
                 <div className="font-montserrat text-xl">
                     <li className="mt-8 mb-8 leading-relaxed text-white">
