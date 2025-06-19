@@ -202,7 +202,7 @@ body {
   margin-bottom: 0;
 }
 
-/*Mobile*/
+/*Mobile golden*/
 
 @media (min-height: 300px) and (max-height: 344px) {
   .top-goldimage {
@@ -258,6 +258,15 @@ body {
     bottom: auto;
   }
 }
+
+@media (min-width: 607px) and (max-width: 767px)  and (min-height: 599px) and (max-height: 800px) {
+  .top-goldimage {
+    top: 70vh !important;
+    bottom: auto;
+  }
+}
+                    /*Mobile golden ends*/
+                    
 
 @media (orientation: landscape) {
 
