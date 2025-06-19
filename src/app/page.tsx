@@ -12,7 +12,7 @@ export default function Home() {
         <HomePageLogo />
       </div> 
 
-      <div className="absolute bottom-0 md:top-[74%] lg:top-[74%] w-full min-h-[248px] flex justify-center bg-cover bg-[url('/border.png')] bg-[position:100%_5%] z-10">
+      <div className="absolute bottom-0 md:top-[74%] lg:top-[74%] w-full min-h-[248px] flex justify-center bg-cover bg-[url('/border.png')] bg-[position:100%_5%] z-10 top-goldimage">
 
         <div className="mx-auto self-center">
           <div className="p-3 border-2 flex flex-row items-center justify-center  bg-[#FFD700]/5 shadow-xl team_button gap-3 border-[#FFD700] rounded-sm relative z-30">
