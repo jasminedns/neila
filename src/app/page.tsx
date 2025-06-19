@@ -3,7 +3,7 @@ import "@/app/globals.css";
 import Mechanics_Element from "@/components/Mechanics_Element";
 import HomePageLogo from "@/components/HomePageLogo";
 import StoryElement from "@/components/StoryElement";
-
+import TrailerSection from "@/components/TrailerSection";
 
 export default function Home() { 
   return (
@@ -27,6 +27,9 @@ export default function Home() {
         </div>
       </div>
       <StoryElement/>
+
+      <TrailerSection/>
+      
       <Mechanics_Element />
     </>
   );
