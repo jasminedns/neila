@@ -4,7 +4,7 @@ const ProjectInfoIntroDiv = () => {
     return (
         <>
          <div className="flex flex-col md:justify-between md:flex-row mx-6 my-0 p-7">
-            <h1 className="text-amber-300 m-3 text-2xl md:text-3xl font-bold font-cinzel">Project Neila:</h1>
+            <h1 className="text-amber-300 m-3 text-2xl md:text-3xl font-bold font-cinzel">Project Neila</h1>
             
             <div className="w-[200px] self-center">
                 <Image src="/images/futuregame_logo.png" alt="futuregame_logo" width={0} height={0} sizes="100vw" 
@@ -38,8 +38,8 @@ const ProjectInfoIntroDiv = () => {
             </div>
             
             <div className="mb-12">
-                <h6 className="font-bold mt-8 mb-4 text-xl md:text-2xl">Immersion</h6>
-                <li className="font-montserrat text-xl leading-relaxed text-justify">
+                <h6 className="font-bold mt-8 mb-4 text-xl md:text-2xl text-white">Immersion</h6>
+                <li className="font-montserrat text-xl leading-relaxed text-justify text-white">
                     The game should tell its narrative primarily through the environment, without interrupting the gameplay.
                     (show don't tell)
                 </li>
