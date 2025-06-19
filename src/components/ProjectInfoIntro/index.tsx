@@ -38,8 +38,8 @@ const ProjectInfoIntroDiv = () => {
             </div>
             
             <div className="mb-12">
-                <h6 className="font-bold mt-8 mb-4 text-xl md:text-2xl">Immersion</h6>
-                <li className="font-montserrat text-xl leading-relaxed text-justify">
+                <h6 className="font-bold mt-8 mb-4 text-xl md:text-2xl text-white">Immersion</h6>
+                <li className="font-montserrat text-xl leading-relaxed text-justify text-white">
                     The game should tell its narrative primarily through the environment, without interrupting the gameplay.
                     (show don't tell)
                 </li>
