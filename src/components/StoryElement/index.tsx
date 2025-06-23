@@ -5,9 +5,9 @@ const StoryElement = () => {
     return (
         <>
         <div>
-            <h3 className="relative font-cinzel text-gold text-[24px] text-center font-bold mt-64 mb-16 mx-4 lg:mr-48 lg:mb-12 lg:mt-48 lg:text-right">
+            <h2 className="relative font-cinzel text-gold text-[24px] text-center font-bold mt-64 mb-16 mx-4 lg:mr-48 lg:mb-12 lg:mt-48 lg:text-right">
                 The Story :
-            </h3>
+            </h2>
             <div className="flex justify-center lg:justify-end min-h-[150px]">
                 <div className="relative flex flex-col items-center justify-center w-full bg-[#FFD700]/3 border border-[#FFD700]/20 rounded-[10px] m-4 p-4 min-h-[260px] md:w-[80%] lg:w-[60%] lg:mr-30 lg:mb-20 mb-40 lg:ml-20">
                     <p className="relative font-montserrat text-[20px] leading-[1.5] text-center text-white max-w-[1300px]">

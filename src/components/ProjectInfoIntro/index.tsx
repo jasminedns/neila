@@ -19,10 +19,10 @@ const ProjectInfoIntroDiv = () => {
                 on the feel and clarity of the core gameplay.
             </li>
             
-            <h5 className="mt-12 mb-8 text-2xl font-montserrat font-semibold text-white">Our Design Goals:</h5>
+            <h2 className="mt-12 mb-8 text-2xl font-montserrat font-semibold text-white">Our Design Goals:</h2>
                         
             <div className="mb-8"> 
-                <h6 className="font-bold mt-8 mb-4 text-justify text-xl md:text-2xl text-white">Player Freedom</h6>
+                <h3 className="font-bold mt-8 mb-4 text-justify text-xl md:text-2xl text-white">Player Freedom</h3>
                 <li className="font-montserrat text-xl leading-relaxed text-justify text-white">
                     We want to encourage player freedom by allowing players to tackle 
                     obstacles and combat scenarios in a variety of ways, with many solutions to every problem.
@@ -30,7 +30,7 @@ const ProjectInfoIntroDiv = () => {
             </div> 
             
             <div className="mb-8">
-                <h6 className="font-bold mt-8 mb-4 text-xl md:text-2xl text-white">Emergent Gameplay</h6>
+                <h3 className="font-bold mt-8 mb-4 text-xl md:text-2xl text-white">Emergent Gameplay</h3>
                 <li className="font-montserrat text-xl leading-relaxed text-justify text-white">
                     Game mechanics should be designed and implemented in a flexible way such that their interactions
                     lead to novel and interesting outcomes in gameplay.
@@ -38,7 +38,7 @@ const ProjectInfoIntroDiv = () => {
             </div>
             
             <div className="mb-12">
-                <h6 className="font-bold mt-8 mb-4 text-xl md:text-2xl text-white">Immersion</h6>
+                <h3 className="font-bold mt-8 mb-4 text-xl md:text-2xl text-white">Immersion</h3>
                 <li className="font-montserrat text-xl leading-relaxed text-justify text-white">
                     The game should tell its narrative primarily through the environment, without interrupting the gameplay.
                     (show don't tell)

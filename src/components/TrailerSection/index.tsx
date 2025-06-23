@@ -4,7 +4,7 @@ export default function TrailerSection() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row m-4 sm:m-8">
         
         <div className="basis-[50%]">
-          <h5 className="font-cinzel text-[24px] m-4 sm:m-8">The Trailer</h5>
+          <h3 className="font-cinzel text-[24px] m-4 sm:m-8">The Trailer</h3>
           <div className="font-montserrat font-thin text-[20px] m-4 sm:m-8">
             <li className="my-4">Project Neila is in early development.</li>
             <li className="my-4">We welcome all feedback—especially on the feel and clarity of the core gameplay.</li>
