@@ -303,3 +303,20 @@ body {
     bottom: 400px;
   }
 }
+
+
+
+.scrollbar-custom::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #FFD700; /* Guld */
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
