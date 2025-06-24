@@ -32,12 +32,12 @@ const ImageCarousel = () => {
   return (
     <>
       {/* Mobile */}
-      <div className="md:hidden w-full overflow-x-auto px-4 mt-[270px] mb-10 scrollbar-custom">
+      <div className="md:hidden w-full overflow-x-auto px-4 mt-[300px] mb-10 scrollbar-custom">
       <div className="flex gap-4 w-max">
         {images.map((src, index) => (
           <div
             key={index}
-            className="relative w-[90vw] h-[180px] md:w-[500px] md:h-[260px] flex-shrink-0 overflow-hidden border-2 border-[#FFD700]">
+            className="relative w-[90vw] max-w-[400px] h-[180px] md:w-[500px] md:h-[260px] flex-shrink-0 overflow-hidden border-2 border-[#FFD700]">
             <Image
               src={src}
               alt={`Image ${index}`}
