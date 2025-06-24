@@ -5,7 +5,7 @@ const Mechanics_Element = () => {
         <>
             <div className="flex flex-col md:flex-row m-4 sm:m-8 ">
                 <div className="basis-[50%] justify-items-center md:justify-items-start">
-                    <h5 className="font-cinzel text-[24px] m-4 sm:m-8">The Mechanics</h5>
+                    <h4 className="font-cinzel text-[24px] m-4 sm:m-8">The Mechanics</h4>
                     <div className="font-montserrat font-thin text-[20px] m-4 sm:m-8">
                         <li className="my-4">Telekinetic Object Pickup & Throwing</li>
                         <li className="my-4">Object Attachment via Goop Mechanic</li>
