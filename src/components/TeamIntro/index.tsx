@@ -9,6 +9,7 @@ interface TeamIntroTypes {
 const TeamIntro = ({ clickedCat, chosenCategory }: TeamIntroTypes) => {
     return (
         <>
+        <h1 className="sr-only">Meet the Team</h1>
         <div className="bg-[url('/images/Empty_background.png')] w-full bg-cover relative h-[calc(100vh-59px)] 
                                                                                         sm:h-[calc(100vh-59px)]">
             <div className="py-11 md:hidden ">
