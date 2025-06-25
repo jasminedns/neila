@@ -1,6 +1,6 @@
 export default function TrailerSection() {
   return (
-    <div className="bg-transparent py-20 px-4 sm:px-8">
+    <div className="bg-transparent py-2 px-4 sm:px-8">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row m-4 sm:m-8">
         
         <div className="basis-[50%]">
